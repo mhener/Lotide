@@ -6,9 +6,9 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-//countOnly will be given an array and an 
-//object, it will return an object containing 
-//counts of everything that the input object 
+//countOnly will be given an array and an
+//object, it will return an object containing
+//counts of everything that the input object
 //listed.
 //Only keys which have truthy values will be
 //counted in the resulting object
@@ -19,8 +19,8 @@ const assertEqual = function(actual, expected) {
 //itemsToCount: an object specifying what to count.
 
 
-const countOnly = function (allItems, itemsToCount) {
-  const results = {}
+const countOnly = function(allItems, itemsToCount) {
+  const results = {};
 
   for (const item of allItems) {
     // console.log(item);

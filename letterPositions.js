@@ -15,4 +15,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-letterPositions('have a nice day');gi
+letterPositions('have a nice day');
